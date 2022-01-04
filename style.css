@@ -12,14 +12,14 @@ h1{
     color: darkorange;
 }
 
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
     width: 50%;
     padding-left: 2%;
-    margin-bottom: 100px;
 }
 
 .half-width img{
@@ -52,3 +52,33 @@ section{
      padding-right: 150px;
      padding-bottom: 15px;
  }
+
+ .experience-area{
+     background-image: url("images/exp-bg.png");
+     background-position: left;
+     background-repeat: no-repeat;
+ }
+
+ .experience-item{
+     width: 40%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding: 20px;
+     box-shadow: 10px 10px 40px gray;
+     border-radius: 10px;
+ }
+#pro-dev{
+    border-left: 7px solid;
+     border-image: linear-gradient(salmon, tomato);
+     border-image-slice: 1;
+}
+
+ #new-dev{
+     border-left: 7px solid;
+     border-image: linear-gradient(blue, cyan);
+     border-image-slice: 3%;
+ }
+
+footer{
+    text-align: center;
+}
