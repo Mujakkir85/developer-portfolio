@@ -19,6 +19,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 2%;
+    margin-bottom: 100px;
 }
 
 .half-width img{
@@ -34,9 +35,20 @@ section{
     color:whitesmoke;
     padding: 10px 40px;
     border-radius: 2px;
+    margin-top: 15px;
 }
 
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+
+.dream-big{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+ .dream-big p{
+     padding-right: 150px;
+     padding-bottom: 15px;
+ }
